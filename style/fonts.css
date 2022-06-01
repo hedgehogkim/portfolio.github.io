@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf); 
+}
+
+@font-face{
+    font-family: 'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Capriola-Regular';
+    src: url(../fonts/Capriola-Regular.ttf);
+}

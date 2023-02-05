@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partfolio</title>
+    <link rel="stylesheet" href="style.css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navigate">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg p-0">
+                    <a class="logo" href="#">
+                        <span class="header__bars"></span>
+                        <span class="logo__text">My</span>Work
+                        <span class="header__shadow"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="header__btn"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="header__list">
+
+                            <li>
+                                <a class="header__link" data-header-link="home" href="#">Главное</a>
+                            </li>
+                            <li>
+                                <a class="header__link" data-header-link="skills" href="#">Навыки</a>
+                            </li>
+                            <li>
+                                <a class="header__link" data-header-link="myWorks" href="#">Мои работы</a>
+                            </li>
+                            <li>
+                                <a class="header__phone" href="tel:998900129195"><img src="images/phone.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="circle circle1"></div>
+        <div class="cube cube1"></div>
+        <div class="cube cube2"></div>
+        <div class="cube cube3"></div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner " id="home">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-12">
+                                <div class="slider__text">
+                                    <h3 class="slider__title">Адаптивная Верстка Сайтов</h3>
+                                    <p class="slider__descr">Языки Разметок</p>
+
+                                </div>
+                                <div class="slider__icons">
+                                    <div class="slider__item">
+                                        <img src="images/HTML.svg" alt="">
+                                        <h4 class="slider__name">Html</h4>
+                                    </div>
+                                    <div class="slider__item">
+                                        <img src="images/CSS.svg" alt="">
+                                        <h4 class="slider__name">CSS</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-12">
+                                <img src="images/man_and_women.svg" class="slider__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-12">
+                                <div class="slider__text">
+                                    <h3 class="slider__title">Адаптивная Верстка Сайтов</h3>
+                                    <p class="slider__descr">Препроцессоры</p>
+
+                                </div>
+                                <div class="slider__icons">
+                                    <div class="slider__item">
+                                        <img src="images/pugjs_logo_icon_170825.svg" alt="">
+                                        <h4 class="slider__name">PUG</h4>
+                                    </div>
+                                    <div class="slider__item">
+                                        <img src="images/icons8-sass.svg" alt="">
+                                        <h4 class="slider__name">SCSS</h4>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-12">
+                                <img src="images/man_and_women.svg" class="slider__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-12">
+                                <div class="slider__text">
+                                    <h3 class="slider__title">Адаптивная Верстка Сайтов</h3>
+                                    <p class="slider__descr">Фреймворки, Языки Программирования, Дополнительные
+                                        Инструменты</p>
+
+                                </div>
+                                <div class="slider__icons">
+                                    <div class="slider__item">
+                                        <img src="images/Bootstrap.svg" alt="">
+                                        <h4 class="slider__name">bootstrap 5</h4>
+                                    </div>
+                                    <div class="slider__item">
+                                        <img src="images/icons8-javascript.svg" alt="">
+                                        <h4 class="slider__name">JS</h4>
+                                    </div>
+                                    <div class="slider__item">
+                                        <img src="images/icons8-gulp.svg" alt="">
+                                        <h4 class="slider__name">Gulp</h4>
+                                    </div>
+                                    <div class="slider__item">
+                                        <img src="images/icons8-git.svg" alt="">
+                                        <h4 class="slider__name">GIT</h4>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-12">
+                                <img src="images/man_and_women.svg" class="slider__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button class="slider__btn active" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                <button class="slider__btn" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button class="slider__btn" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        </div>
+        <div class="front" id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="front__image">
+                            <h3 class="front__abs">my work for
+                                <span>5+</span>
+                            </h3>
+                            <img src="images/men.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="front__text">
+                            <h3 class="front__title">
+                                Не много о себе
+                            </h3>
+                            <ul class=" front__descr" style="text-transform: none;">
+                                <li>Отлично владею знаниями простой адаптивной верстки сайта с
+                                    использованием: <br>
+                                    - Html (Pug)<br>
+                                    - Сss (Scss)<br>
+                                    - BOOTSTRAP 5<br>
+                                    - Java Script<br>
+                                    - Gulp<br>
+                                    - Git.
+                                </li>
+                                <li>Опыт Работы в Адаптивной простой верстки сайтов - Год. </li>
+                                <li> В процесе изученмя: <br>
+                                    - React.<br>
+                                    - Redux.<br>
+                                    - Python.<br>
+                                    - TypeScript.<br>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/back__form_1.svg" alt="" class="fron__wave">
+            <div class="circle circle2"></div>
+        </div>
+        <div class="cap">
+            <div class="container">
+                <h2 class="cap__title">Навыки</h2>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="accord">
+                            <div class="circle circle3"></div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <img src="images/HTML.svg" class="cap__icon" alt="">
+                                            <span>Html</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body" style="text-transform: none;">
+                                            - Создание семантической разметки по макету.<br>
+                                            - Экспорт параметров и графики из PSD‑макетов <br>
+                                            - Построение сеток на флексах по макету<br>
+                                            - Экспорт параметров и графики из Figma<br>
+                                            - Вёрстка текстового содержимого страниц<br>
+                                            - Построение сеток на гридах по макету<br>
+                                            - Вёрстка навигационных элементов интерфейса<br>
+                                            - Вёрстка карточных элементов интерфейса<br>
+                                            - Вёрстка многослойных элементов интерфейса<br>
+                                            - Разметка по БЭМ
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <img src="images/CSS.svg" class="cap__icon" alt="">
+                                            <span>css</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body" style="text-transform: none;">
+                                            - Медиавыражения<br>
+                                            - Grid<br>
+                                            - Градиенты<br>
+                                            - Трансформации<br>
+                                            - Анимации<br>
+                                            - Переходы<br>
+                                            - Множественные фоны<br>
+                                            - Flexbox<br>
+                                            - Многоколоночные макеты
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            <img src="images/icons8-javascript.svg" class="cap__icon" alt="">
+                                            <span>Java Script</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body" style="text-transform: none;">
+                                            - Числа + BigInt<br>
+                                            - Слайдеры<br>
+                                            - Скроллинг<br>
+                                            - Параллакс эффект<br>
+                                            - Бургер-Меню<br>
+                                            - Работа с API<br>
+                                            - Работа с DOM<br>
+                                            - Счётчик<br>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            <svg width="30" height="30" viewBox="0 0 90 90" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M75 0H15C11.0248 0.00990093 7.21524 1.59343 4.40434 4.40434C1.59343 7.21524 0.00990093 11.0248 0 15V75C0 83.25 6.75 90 15 90H75C83.25 90 90 83.25 90 75V15C90 6.75 83.25 0 75 0ZM66.7988 63.2062C66.0488 65.0137 64.86 66.6075 63.3375 67.8338C61.7625 69.1087 59.7675 70.1588 57.3112 70.9088C54.8587 71.67 51.9412 72.0525 48.5625 72.0525H24.4425V19.5525H49.95C54.6675 19.5525 58.4475 20.6137 61.275 22.7775C64.125 24.9525 65.5425 28.1925 65.5425 32.565C65.5425 35.2088 64.8975 37.4775 63.6 39.3525C62.31 41.2163 60.45 42.675 58.05 43.6875V43.86C61.2525 44.535 63.7313 46.0537 65.3625 48.4163C66.9938 50.7788 67.83 53.7638 67.83 57.3675C67.83 59.385 67.44 61.305 66.705 63.0975L66.7988 63.1988V63.2062ZM56.3887 50.2687C54.8512 48.8625 52.6912 48.1763 49.9012 48.1763H33.6937V64.5563H49.9463C52.7213 64.5563 54.8962 63.8363 56.4338 62.3813C57.9712 60.9375 58.7587 58.8787 58.7587 56.2313C58.7325 53.6437 57.9712 51.6413 56.4338 50.2687H56.37H56.3887ZM54.1388 39.6825C55.6238 38.4225 56.3512 36.6187 56.3512 34.2675C56.3512 31.6275 55.695 29.7525 54.3638 28.68C53.0438 27.6112 51.1387 27.0563 48.6338 27.0563H33.6338V41.5425H48.6338C50.82 41.5425 52.6838 40.905 54.1237 39.6825H54.1388Z"
+                                                    fill="#790FF1" class="cap__icon" />
+                                            </svg>
+                                            <span>Bootstrap 5</span>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body" style="text-transform: none;">
+                                            - Верстка адаптивного макета<br>
+                                            - Стилизация контента и форм<br>
+                                            - CSS-компоненты<br>
+                                            - JS-компоненты
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <img src="images/Boy.svg" alt="" class="cap__img">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="works" id="myWorks">
+            <div class="container">
+                <h3 class="cap__title">Мои работы</h3>
+                <div class="row works__box">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-12">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active" id="activeBox-tab" data-bs-toggle="pill"
+                                data-bs-target="#activeBox" type="button" role="tab" aria-controls="nike"
+                                aria-selected="true">ActiveBox</button>
+                            <button class="nav-link" id="silver-tab" data-bs-toggle="pill" data-bs-target="#coffee"
+                                type="button" role="tab" aria-controls="coffee" aria-selected="false">Coffee</button>
+                            <button class="nav-link" id="food-tab" data-bs-toggle="pill" data-bs-target="#food"
+                                type="button" role="tab" aria-controls="food" aria-selected="false">Food</button>
+                            <button class="nav-link" id="house-tab" data-bs-toggle="pill" data-bs-target="#house"
+                                type="button" role="tab" aria-controls="airpods"
+                                aria-selected="false">House-vop</button>
+                            <button class="nav-link" id="mogo-tab" data-bs-toggle="pill" data-bs-target="#mogo"
+                                type="button" role="tab" aria-controls="mogo" aria-selected="false">MoGo</button>
+                            <button class="nav-link" id="pizza-tab" data-bs-toggle="pill" data-bs-target="#pizza"
+                                type="button" role="tab" aria-controls="pizza" aria-selected="false">Pizza</button>
+                            <button class="nav-link" id="loading-tab" data-bs-toggle="pill" data-bs-target="#loading"
+                                type="button" role="tab" aria-controls="loading" aria-selected="false">App
+                                Loading</button>
+                            <button class="nav-link" id="styajka-tab" data-bs-toggle="pill" data-bs-target="#styajka"
+                                type="button" role="tab" aria-controls="styajka"
+                                aria-selected="false">Styajka24</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-8 col-12">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="activeBox" role="tabpanel"
+                                aria-labelledby="activeBox-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/ActiveBox.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">ActiveBox </h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является концепцией.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css <br>
+                                                - BOOTSTRAP.
+                                            </li>
+
+                                        </ul>
+                                        <a href="https://hedgehogkim.github.io/Activebox.github.io/"
+                                            class="works__link">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="coffee" role="tabpanel" aria-labelledby="coffee-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/Coffee.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">Coffee </h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является концепцией.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css <br>
+                                                - JS.
+                                            </li>
+                                        </ul>
+                                        <a href="https://hedgehogkim.github.io/Coffee.github.io/"
+                                            class="works__link">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="food" role="tabpanel" aria-labelledby="food-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/Food.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">Food</h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является концепцией.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css <br>
+                                                - JS <br>
+                                                - Работа с Swiper-Slider.
+                                            </li>
+                                        </ul>
+                                        <a href="https://hedgehogkim.github.io/Food.github.io/"
+                                            class="works__link">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="house" role="tabpanel" aria-labelledby="house-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/House-vop.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">House-vop</h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является концепцией.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css <br>
+                                                - JS <br>
+                                                - BOOTSTRAP.
+                                            </li>
+                                        </ul>
+                                        <a href="https://hedgehogkim.github.io/House-vop.github.io/"
+                                            class="works__link"> Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="mogo" role="tabpanel" aria-labelledby="mogo-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/MoGo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">MoGo </h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является концепцией.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css <br>
+                                                - BOOTSTRAP.
+                                            </li>
+                                        </ul>
+                                        <a href="https://hedgehogkim.github.io/Mogo.github.io/"
+                                            class="works__link">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/Pizza.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">Pizza </h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является концепцией.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css <br>
+                                                - JS.
+                                            </li>
+                                        </ul>
+                                        <a href="https://hedgehogkim.github.io/Pizza.github.io/"
+                                            class="works__link">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="loading" role="tabpanel" aria-labelledby="loading-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/appLoading.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">App Loading </h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является концепцией.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css <br>
+                                                - JS <br>
+                                                - Работа с Swiper-Slider.
+                                            </li>
+                                        </ul>
+                                        <a href="https://hedgehogkim.github.io/AppLoading.github.io/"
+                                            class="works__link">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="styajka" role="tabpanel" aria-labelledby="styajka-tab">
+                                <div class="works__content">
+                                    <div class="works__content-img">
+                                        <div class="">
+                                            <img src="images/projects/styajka24.uz_.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="works__text">
+                                        <h3 class="works__name">STYAJKA24</h3>
+                                        <ul class="works__descr">
+                                            <li style="text-transform: none;">
+                                                Данная работа является работой выполненной на заказ.<br>
+                                                Макет cайта (PSD файл) был взят с беплатного источника.<br>
+                                                Данные из формы отправляются через телеграмм бот в специально
+                                                созданный канал.<br>
+                                                <p class="dividing_line"></p>
+                                                Сайт был собран на: <br>
+                                                - Html <br>
+                                                - Css (Scss)<br>
+                                                - JS <br>
+                                            </li>
+                                        </ul>
+                                        <a href="https://styajka24.uz/" class="works__link">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/back__form_2.svg" alt="" class="works__wave">
+            <div class="circle circle4"></div>
+            <div class="cube cube4"></div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="circle circle5"></div>
+        <div class="container">
+            <div class="footer__content">
+                <a class="logo" href="#">
+                    <span class="header__bars"></span>
+                    <span class="logo__text">My</span>Work
+                    <span class="header__shadow"></span>
+                </a>
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__link" data-header-link="home">Главное</a></li>
+                    <li><a href="#" class="footer__link" data-header-link="skills">Навыки</a></li>
+                    <li><a href="#" class="footer__link" data-header-link="myWorks">Мои работы</a></li>
+                    <li><a href="tel:998900129195" class="footer__link">+998900129195</a></li>
+                    <li><a href="mailto:svsvf@gmail.com" class="footer__link">vladimir.kim200017@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="js/scroll.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

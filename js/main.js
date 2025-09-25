@@ -27,6 +27,7 @@ const i18n = {
       "An application for searching movies (basic interface, no advanced design). Focused on working with REST API, Next.js, and TypeScript, along with state management and handling asynchronous requests (fetch/axios).",
     "block7.desc-morago":
       "Morago is a web application that enables users and translators to make real-time translated calls.The functionality includes registration and authentication via JWT, role management (User, Translator, Admin), and storing and viewing call history. For data exchange and notifications, it uses REST API and WebSocket, while calls are handled through WebRTC. The frontend is built with React/Next.js and TypeScript, and the backend with Spring Boot and MySQL.",
+    "block8.btnBlock": "View",
   },
   ko: {
     "block.about-me-title": "자기소개",
@@ -58,6 +59,7 @@ const i18n = {
 
     "block7.desc-morago":
       "Morago는 사용자와 통역사가 실시간 통역 전화를 할 수 있는 웹 애플리케이션. 주요 기능은 JWT를 통한 회원가입 및 인증, 역할 관리(User, Translator, Admin), 통화 내역 저장 및 조회 포함. 데이터 교환과 알림은 REST API와 WebSocket을 통해 처리하고, 통화는 WebRTC로 구현. 프론트엔드는 React/Next.js, TypeScript, 백엔드는 Spring Boot, MySQL 기반.",
+    "block8.btnBlock": "보기",
   },
 };
 
